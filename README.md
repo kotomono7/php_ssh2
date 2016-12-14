@@ -1,7 +1,16 @@
 # PHP SSH2
 
 ## About
-This is a simple function to connect with sftp server using php and ssh2 lib
+This is a simple function to connect with sftp server using php and ssh2 lib.
+<br>What you can do with this function:
+* Connect and login to sftp server
+* Read file (.txt)
+* Read file (.csv) and convert to arrays
+* Get filesize and scan folder
+* Upload file to sftp server
+* Receive (download) file from sftp server
+* Delete file on sftp server
+
 
 ## Requirements
 PHP >= 5, libssh2-1, libssh2-1-dev, libssh2-php, pecl ssh2 (https://pecl.php.net/package/ssh2)
